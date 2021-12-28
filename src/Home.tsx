@@ -222,7 +222,7 @@ const Home = (props: HomeProps) => {
         </Alert>
       </Snackbar>
 
-      Return Home
+      <a href="url">https://studio-nft.github.io/dev/</a>
       </div>
     </main>
   );
