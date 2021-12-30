@@ -167,7 +167,7 @@ const Home = (props: HomeProps) => {
 
   return (
     <main>
-      <div className="mint-container">
+      {/* <div className="mint-container"> */}
       {wallet && (
         <p>Wallet {shortenAddress(wallet.publicKey.toBase58() || "")}</p>
       )}
@@ -221,9 +221,7 @@ const Home = (props: HomeProps) => {
           {alertState.message}
         </Alert>
       </Snackbar>
-
-      <a href="https://studio-nft.github.io/dev/">Return Home</a>
-      </div>
+      {/* </div> */}
     </main>
   );
 };
