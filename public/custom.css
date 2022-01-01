@@ -5,6 +5,9 @@ body {
     color: white;
     height: 100%;
     min-height: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
 }
 
 .text-muted {
